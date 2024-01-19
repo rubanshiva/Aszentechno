@@ -1,0 +1,151 @@
+.headerDiv{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: linear-gradient(111.49deg, rgba(255, 255, 255, 0.4) -8.95%, rgba(255, 255, 255, 0.4) 114%); */
+    background:#ffffff ;
+    padding: 0  4vw;
+    z-index: 1000;
+    min-height: 80px;
+}
+
+.headerlogo{
+   width: 250px;
+   height: auto;
+}
+.AszenLogo{
+   width:30%;
+   height:auto;
+}
+.headermenu ul {
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   list-style: none;
+   margin-bottom: 0px;
+   margin-right: 20px;
+}
+
+.headermenu ul li{
+   margin-left: 22px;
+   color: #212123;
+   /* font-family: 'Open Sans'; */
+   font-style: normal;
+   /* font-weight: 500; */
+   font-size: 17px; 
+   cursor: pointer;
+}
+
+.contactus-btn{
+   background: radial-gradient(293.15% 5244.37% at 100% 121.13%, #FF9A00 0%, #FD331F 100%);
+   width: 150px;
+   height: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 25px;
+   color: #FFFFFF;
+   border-radius: 20px;
+}
+
+/* Style the button that will trigger the dropdown */
+.dropbtn {
+  background-color: transparent;
+  color: #212123;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: max-content;
+  background-color: #fff   ;
+  /* margin-top: 5px; */
+}
+
+/* Show the dropdown content when the button is hovered over */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content .drpdwnlink {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change the background color of links on hover */
+.dropdown-content .drpdwnlink:hover {
+  background-color: #f1f1f1;
+}
+ 
+.mobmenu{
+  display: none;
+}
+
+.mobdiv{
+  display: none;
+}
+@media screen and (max-width: 920px){
+  .headerlogo{
+    width: 200px;
+    height: auto;
+ }
+    .contactus-btn{
+      display: none;
+    }
+    .headermenu{
+      display: none;
+    }
+
+    .mobmenu{
+     display: block;
+     cursor: pointer;
+    }
+
+    .contactus-btn2{
+      background: radial-gradient(293.15% 5244.37% at 100% 121.13%, #FF9A00 0%, #FD331F 100%);
+      width: 140px;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      color: #FFFFFF;
+      border-radius: 20px;
+      margin-top: 10vh;
+   }
+
+   .mob-options{
+    color: #212123;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px; 
+    margin: 12px 0px;
+    text-decoration: none !important;
+   }
+
+   .mob-options:hover{
+    text-decoration: underline;
+   }
+
+   .mobdiv{
+    display: block;
+   }
+}

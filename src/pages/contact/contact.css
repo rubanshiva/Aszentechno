@@ -1,0 +1,241 @@
+.contcontainer {
+    margin: 20px 10vw 10px 10vw;
+}
+
+.contacth2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    text-align: center;
+    line-height: 40px;
+    /* identical to box height, or 83% */
+    /* display: flex;
+    align-items: center; */
+    /* black 1 */
+    color: #212123;
+    margin: 25px 0 0 0 ;
+}
+
+.pen {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    /* display: flex;   
+    align-items: center;
+    /* secondary black */
+    text-align: center;
+    color: #4B5563;
+    padding: 15px;
+}
+
+.frminput {
+    background: #FCFCFC;
+    box-shadow: 0px 2px 6px rgba(205, 205, 205, 0.3);
+    border-radius: 15px;
+    width: 556px;
+    height: 75px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.flexdisplay {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexdisplay div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-input {
+    background: #FCFCFC;
+    box-shadow: 0px 2px 6px rgba(205, 205, 205, 0.3);
+    border-radius: 15px;
+    width: 80%;
+    height: 50px;
+    border: 1px solid #d6d6d6;
+    margin: 10px 10px 20px 2px;
+    padding: 5px 20px;
+
+}
+
+.borderinput {
+    margin: 20px;
+    width: 50%;
+}
+
+.textarea {
+    width: 100% !important;
+    height: 160px;
+    
+    margin:10px;
+    border:none;
+
+    background: #FCFCFC;
+    box-shadow: 0px 2px 6px rgba(205, 205, 205, 0.3);
+    border-radius: 15px;
+}
+
+.buttonsmt {
+    margin: auto;
+    background: radial-gradient(293.15% 5244.37% at 100% 121.13%, #FF9A00 0%, #FD331F 100%);
+    padding: 6px 40px ;
+    height: 60px;
+    border:none;
+    border-radius: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* identical to box height, or 136% */
+
+    color: #F3F3F3;
+}
+
+.contactcard{
+    width:100%;
+    margin:20px;
+    padding: 20px;;
+    background: rgba(252, 252, 252, 0.4);
+/* dropdown light */
+box-shadow: 0px 4px 8px rgba(205, 205, 205, 0.5);
+border-radius: 30px;
+}
+
+.carddisplay{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+
+}
+@media screen and (max-width: 860px){
+    .carddisplay{
+      flex-direction: column;
+    }}
+
+.cardh6{
+    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 26px;
+line-height: 40px;
+/* identical to box height, or 154% */
+
+display: flex;
+align-items: center;
+
+/* black 1 */
+
+color: #212123;
+}
+.button2{
+    background: radial-gradient(293.15% 5244.37% at 100% 121.13%, #FF9A00 0%, #FD331F 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+border:none;
+text-decoration-line: underline;}
+.mail{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+display: flex;
+align-items: center;
+
+/* black 1 */
+
+color: #212123;
+}
+.contactcard h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 40px;
+    /* identical to box height, or 154% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* black 1 */
+    
+    color: #212123;
+    
+}
+.contactcard small{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 200;
+font-size: 14px;
+line-height: 30px;
+/* or 188% */
+
+display: flex;
+align-items: center;
+
+/* secondary black */
+
+color: #4B5563;
+
+}
+
+.contactcard h6{
+font-family:'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 30px;
+/* identical to box height, or 214% */
+
+display: flex;
+align-items: center;
+
+/* secondary black */
+
+color: #4B5563;
+
+}
+@media screen and (max-width: 980px){
+    .flexdisplay{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+
+    .borderinput{
+        width: 100%;
+    }
+
+    .carddisplay{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactcard{
+        width: 100%;
+    }
+
+    .contacth2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+}

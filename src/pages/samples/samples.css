@@ -1,0 +1,91 @@
+.samplemainDiv{
+    background-image: url('../../Assets//Images/plainbg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.samplediv{
+    width: 6vh 14vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.samplediv h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 40px;
+    text-align: center;
+    color: #212123;
+    margin: 3vh  0 
+}
+
+.samplediv span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #4B5563;
+}
+
+
+.sampleGirdLayout{
+    columns: 4 260px;
+    gap: 20px;
+    margin: 5vh 6vw;
+}
+
+.sampleGirdLayout img{
+   width: 100%;
+   margin-bottom: 15px;
+   border-radius: 8px;
+ }
+
+
+ .contactusstrip{
+    background: linear-gradient(94.57deg, rgba(142, 132, 255, 0.5) 0.58%, rgba(212, 153, 237, 0.5) 17.89%, rgba(244, 123, 143, 0.32) 33.86%, rgba(250, 191, 178, 0.5) 50.35%, rgba(255, 250, 209, 0.5) 66.84%, rgba(149, 243, 217, 0.5) 83.33%, rgba(100, 178, 255, 0.5) 99.51%);
+    border: 0.5px solid #E7E7E7;
+    border-radius: 30px;
+    margin: 3vh 2vw;
+    padding: 2vh 2.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+ }
+
+ .contactusstrip div h6{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    color: #212123;
+    margin-bottom: 40px;
+ }
+
+ .socialiocn div{
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(204, 204, 204, 0.25);
+    border-radius: 30px;
+    padding: 8px 14px;
+    margin-bottom: 20px;
+ }
+
+ .gifcontact{
+    width: 300px;
+    height: auto;
+    border-radius: 25px;
+ }
+
+ @media screen and (max-width:860px) {
+    .contactusstrip{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+ }

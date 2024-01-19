@@ -1,0 +1,363 @@
+.containerdiv {
+    padding: 0 4vw;
+    border-radius: 30px;
+    margin:8vh 5vw;
+    background-image: url('../../Assets//Images/plainbg.png');
+    background-position: center;
+    background-size: cover;
+    /* background: linear-gradient(111.49deg, rgb(231 231 231 / 48%) -8.95%, rgba(255, 255, 255, 0.4) 114%); */
+}
+
+.headdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6vh;
+    margin-bottom: 8vh;
+    text-align: center;
+    padding: 0 4vw;
+}
+
+.headdiv h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 40px;
+    text-align: center;
+    color: #212123;
+    margin: 3vh 0
+}
+
+.headdiv p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    /* line-height: 32px; */
+    text-align: center;
+    color: #212123;
+}
+
+.flexbox {
+    padding: 20px;
+    margin: 30px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 8px rgba(215, 215, 215, 0.25);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cardsec {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.buttoncardsactive {
+    background: radial-gradient(293.15% 5244.37% at 100% 121.13%, rgba(255, 154, 0, 0.2) 0%, rgba(253, 51, 31, 0.2) 100%);;
+    box-shadow: 4px 4px 8px rgba(215, 215, 215, 0.25);
+    border-radius: 15px;
+    /* width: 200px; */
+    height: 100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #212123;
+    border-color: #FF9A00;
+}
+
+
+.buttoncards {
+    box-sizing: border-box;
+    box-shadow: 4px 4px 8px rgba(215, 215, 215, 0.25);
+    border-radius: 15px;
+    background-color: white;
+    /* width: 200px; */
+    height: 100px;
+    margin: 0px 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button1 {
+    margin: 0 25%;
+    background: radial-gradient(293.15% 5244.37% at 100% 121.13%, #FF9A00 0%, #FD331F 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    width: 350px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #F3F3F3;
+}
+
+.button3 {
+    background: #FFFFFF;
+    border-color: #FF9A00;
+    width: 350px;
+    height: 60px;
+    box-shadow: 4px 4px 8px rgba(215, 215, 215, 0.25);
+    border-radius: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    text-align: center;
+    color: #212123;
+}
+
+.gridtitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 70px;
+    /* identical to box height, or 350% */
+
+    text-align: center;
+
+    /* black 1 */
+
+    color: #212123;
+}
+
+.basic {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 70px;
+    text-align: center;
+    color: #212123;
+    justify-content: center;
+    /* display: flex;
+    align-items: center; */
+}
+.flexbox p{
+    text-align: center;
+    
+}
+
+.smalltxt {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #4B5563;
+}
+
+.submitbutton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.iconimg{
+    background: linear-gradient(165.22deg, rgba(255, 119, 178, 0.8) -25.3%, rgba(255, 225, 186, 0.8) 116.66%), rgba(237, 237, 237, 0.2);
+    /* padding: 6px; */
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pricecardDiv{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 26px;
+    box-shadow: 4px 4px 8px rgba(215, 215, 215, 0.318);
+    margin-bottom: 26px;
+}
+
+ .pricingheading {
+    font-family:inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #212123;
+ }
+
+ .pricingdivsec{
+    display: flex;
+    align-items: center;
+ }
+
+ .pricingsection{
+    border-right: 2px solid #D0D0D0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .pricingsection b{
+    font-family:inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #212123;
+    margin-bottom: 20px;
+ }
+
+ .pricingsection span {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4B5563;
+ }
+
+ .pricingbtn{
+    text-decoration: none;
+    border: 1.5px solid #FD331F;
+    padding: 12px 20px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    background: radial-gradient(293.15% 5244.37% at 100% 121.13%, #FF9A00 0%, #FD331F 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    border-radius: 30px;
+ }
+@media screen and (max-width:1320px) {
+    .buttoncards{
+        width: 150px;
+        height: 75px;
+        font-size: 15px;
+    }
+    .buttoncardsactive {
+        width: 150px;
+        height: 75px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .flexbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+}
+
+@media screen and (max-width:1120px) {
+  .cardsec{
+    overflow-x: auto;
+  }
+
+  /* width */
+  .cardsec::-webkit-scrollbar {
+    display: none;
+}
+  /* Track */
+  .cardsec::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .cardsec::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  .submitbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button1{
+    margin: 14px 0 0 0;
+  }
+
+  .headdiv h1 {
+     font-size: 34px;
+     line-height: 40px;
+  }
+
+  .headdiv{
+    margin: 0px;
+  }
+}
+
+
+@media screen and (max-width:1180px) {
+.containerdiv {
+  margin: 6vh 2vw;
+}
+
+.headdiv p{
+    font-size: 18px;
+}
+.pricecardDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricingcard1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricingdivsec{
+    margin: 20px 0px;
+}
+.pricingsection{
+    padding: 8px;
+}
+.pricingsection b{
+    font-size: 16px;
+    line-height: 26px;
+}
+.pricingsection span{
+    font-size: 14px;
+}
+
+.pricingbtn{
+    margin-top: 20px;
+}
+}

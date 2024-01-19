@@ -1,0 +1,698 @@
+.homepage-topdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  margin-top: 6vh;
+   
+}
+.H-ptopdiv{
+    background-image: url('../../Assets//Images/bg\ 1\ \(1\).png');
+    background-position: center;
+    background-size: cover;
+    min-height: 150vh;
+}
+
+
+
+.homepage-topdiv h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 40px;
+    text-align: center;
+    color: #212123;
+    margin: 3vh  0 
+}
+
+.homepage-topdiv  h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: linear-gradient(90deg, #F59E0B 17.62%, #EA580C 48.37%, #EAB308 82.51%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.h-p-secndDiv{
+    margin: 4vh 12vw;
+}
+
+.h-p-descrip{
+    font-family: 'Open sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #4B5563;
+}
+
+.h-p-since{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.sinceDiv{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 1px dashed #212123;
+    padding: 6px;
+}
+
+.carousalitems{
+    margin:5vh 16vw;
+}
+.carouselimg{
+    margin:90px;
+}
+
+.sliderimg{
+    width: 100%;
+   height: auto;
+   border-radius: 10px;
+}
+
+.h-p-thirdDiv{
+ margin: 3vh 15vw;
+}
+
+.h-p-thirdDiv h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    color: #212123;
+    margin-bottom: 12px;
+ }
+
+.h-p-thirdDiv p{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 145% */    
+    text-align: center;    
+    color: #4B5563;
+}
+
+.h-p-cardsDiv{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(365px, 1fr)) !important;
+    gap: 26px;
+    margin: 14vh 12vw;
+}
+.cardssection{
+    padding: 20px;
+    background: linear-gradient(179.41deg, #E599F8 -382.98%, rgba(194, 153, 248, 0) 67.62%, rgba(229, 153, 248, 0) 67.62%), rgba(237, 237, 237, 0.2);
+    border: 0.5px solid #E7E7E7;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+
+.cardssection2{
+    padding: 20px;
+    background: linear-gradient(180.38deg, #65AB8C -360.36%, rgba(101, 171, 140, 0) 67.72%), rgba(237, 237, 237, 0.2);
+    border: 0.5px solid #E7E7E7;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+.cardssection3{
+    padding: 20px;
+    background: linear-gradient(179.91deg, #F899D2 -234.78%, rgba(248, 153, 210, 0) 67.8%), rgba(217, 217, 217, 0.19);
+    border: 0.5px solid #E7E7E7;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+.cardssection4{
+    padding: 20px;
+    background: linear-gradient(180.39deg, #E99172 -347.75%, rgba(233, 145, 114, 0) 67.72%), rgba(237, 237, 237, 0.19);
+    border: 0.5px solid #E7E7E7;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+.cardssection5{
+    padding: 20px;
+    background: linear-gradient(180.4deg, #91CCEC -332.1%, rgba(145, 204, 236, 0) 67.72%), rgba(237, 237, 237, 0.19);
+    border: 0.5px solid #E7E7E7;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+.cardssection6{
+    padding: 20px;
+    background: linear-gradient(180.34deg, #8377EB -400.34%, rgba(131, 119, 235, 0) 67.73%), rgba(237, 237, 237, 0.2);
+    border: 0.5px solid #E7E7E7;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+
+.cardsechead{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #212123;
+    margin-top: 12px;
+}
+
+.cardsecdesp{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4B5563;
+    margin-top: 12px;
+}
+
+.servicesDiv{
+    margin: 15vh 12vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;       
+}
+
+.servicesDiv h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    color: #212123;
+    margin-bottom: 10px;
+}
+
+.servicesDiv p{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #4B5563;
+    margin-bottom: 30px;
+}
+
+
+.serivescardContainer{
+    /* height: 700px;  */
+    /* overflow-y: scroll; */
+    scroll-behavior: smooth;
+    margin-top: 70px;
+}
+
+.serivescardContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.servisecard{
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(168.36deg, #FFEBCC -22.35%, #FF5A55 121.11%), rgba(237, 237, 237, 0.2);
+    margin-bottom: 20px; 
+    height: auto;
+    /* margin-top: -132px; */
+    transition: transform 0.4s ease-in-out;
+}
+  
+.servicetxts{
+    width: 84%;
+    margin-right: 15px;
+}
+/* .servisecard:hover {
+    transform: translateY(-120px); 
+  } */
+.servicetxts h5{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 44px;
+    color: #212123;
+    margin-bottom: 12px;
+}
+
+.servicetxts p{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    text-align: start;
+    color: #212123;
+}
+
+.serviceimg{
+background: rgba(255, 255, 255, 0.4);
+border-radius: 25px;
+padding: 16px;
+width: 360px;
+height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.serviceimg img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px
+}
+
+.globalDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    /* margin-right: 10vw; */
+}
+
+.globalbtm{
+    margin-right: 9vw;
+}
+
+.globalrighttxt{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 60px;
+    color: #212123;
+}
+.globalgird{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
+    gap: 30px;
+    margin-top: 10vh;
+}
+.globalservcard1{
+        border-left: 2.8px solid #95F3D9;
+        padding: 15px;
+}
+.globalservcard2{
+    border-left: 2.8px solid #D499ED;
+    padding: 15px;
+}
+.globalservcard3{
+    border-left: 2.8px solid #FFADBA;
+    padding: 15px;
+}
+
+.globalservcard4{
+    border-left: 2.8px solid #8E84FF;
+    padding: 15px;
+}
+
+.glob-count{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 70px;
+    color: #212123;
+}
+.glob-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #4B5563;
+}
+
+.pricingplanDiv{
+    background: linear-gradient(111.49deg, rgb(231 231 231 / 48%) -8.95%, rgba(255, 255, 255, 0.4) 114%);
+    backdrop-filter: blur(50px);
+    padding: 15px;
+    margin: 8vh 0%;
+    text-align: center;
+    border-radius: 30px;
+    max-width: 1060px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.pricingplanDiv h5{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 70px;    
+    color: #212123;
+}
+
+.pricing-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricingItems{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.pricingitem{
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    /* width: 200px; */
+    cursor: pointer;
+}
+
+.pricingitem span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 34px;
+    text-align: center;
+    color: #212123;
+}
+.pricingitemActive{
+    padding: 20px;
+    background: radial-gradient(502.76% 588.08% at -230.9% -104.62%, rgba(255, 142, 4, 0.2) 0%, rgba(255, 154, 0, 0.2) 19.36%, rgba(253, 51, 31, 0.2) 100%);
+    border-radius: 20px;
+    border: 2.5px solid #FD331F ;
+}
+
+.pricingitemActive span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 34px;
+    text-align: center;
+    color: #212123;
+}
+
+.pricingdetails{
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 1vw;
+    width: 350px;
+}
+
+.pricinghead{
+    padding: 10px 0;
+    border-bottom:  0.5px solid rgba(75, 85, 99, 0.5);;
+}
+.pricinghead span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    background: radial-gradient(293.15% 5244.37% at 100% 121.13%, #FF9A00 0%, #FD331F 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.pricing-box{
+    margin: 5px 0px;
+}
+
+.pricing-box p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    color: #4B5563;
+}
+
+
+.pricing-box span{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #4B5563
+}
+
+.contactusbtn{
+    background: radial-gradient(293.15% 5244.37% at 100% 121.13%, #FF9A00 0%, #FD331F 100%);
+    border-radius: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF; 
+    margin: 12px 0px;
+}
+
+.reviewsdiv{
+    margin: 70px 0;
+
+}
+.reviewsdiv h5{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 60px;
+    color: #212123;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.reviewsec{
+    background-image: url('../../Assets//Images/plainbg.png');
+    background-position: center;
+    background-size: cover;
+    padding: 2vh 0;
+}
+
+.reviewcard{
+    background: rgba(255, 255, 255, 0.634);
+    border: 0.5px solid rgba(237, 237, 237, 0.6);
+    border-radius: 15px;
+    padding: 12px;
+    margin: 6px;
+    width: max-content;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.reviewcard div{
+    display: flex;
+    flex-direction: column;
+    
+}
+.reviewcard div b{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    color: #212123;
+}
+
+.reviewcard div span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #4B5563;
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 980px){
+
+    .pricing-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .H-ptopdiv{
+        min-height: 110vh;
+       }
+}
+
+@media screen and (max-width: 880px){
+  
+ .globalDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+ }
+ .carousalitems{
+    margin:5vh 1vh 1vw;
+} 
+
+.carouselimg{
+    margin: 5px;
+}
+.carouselimg{
+    margin:20px;
+}
+
+ .pricing-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .pricingplanDiv{
+    margin: 5vh 4vw;
+ }
+
+ .pricingItems{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.globalimg{
+    width: 85%;
+    height: auto;
+}
+
+.globalrighttxt{
+    font-size: 30px;
+    line-height: 40px;
+}
+.globalbtm{
+    margin: 0 4vw;
+}
+
+.globalgird {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)) !important;
+    gap: 30px;
+    margin-top: 10vh;
+    margin-left: 6vw;
+}
+
+.homepage-topdiv h1{
+  font-size: 32px;
+}
+
+.homepage-topdiv h2{
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.h-p-secndDiv{
+    margin: 4vh 5vw;
+}
+
+.h-p-cardsDiv{
+    margin: 10vh 4vw;
+}
+
+.H-ptopdiv{
+ min-height: 80vh;
+}
+
+.h-p-thirdDiv h3{
+ font-size: 34px;
+ line-height: 40px;
+ width: 100%;
+}
+
+.servicesDiv h3{
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.servicesDiv{
+    margin: 10vh 5vw;
+}
+
+.serivescardContainer{
+    margin-top: 70px;
+}
+.servisecard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    margin-top: 0px;
+    padding: 15px;
+}
+.servicetxts h5{
+    font-size: 24px;
+}
+
+.servicetxts p{
+    font-size: 14px;
+    line-height: 26px;
+}
+.pricingdetails{
+ width: 100%;
+}
+
+.pricingplanDiv h5{
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.reviewsdiv h5{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.serviceimg{
+    width: 310px;
+}
+
+.h-p-cardsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.servicetxts{
+    width: 100%;
+    margin-right: 1px;
+}
+
+}
+
+@media screen and (max-width: 680px){
+
+    .H-ptopdiv{
+        min-height: 70vh;
+    }
+}

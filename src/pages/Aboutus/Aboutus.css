@@ -1,0 +1,31 @@
+.aboutmaindiv{
+    background-image: url('../../Assets//Images/plainbg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutusDiv{
+    margin: 15vh 8vw;
+}
+
+.topaboutus{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    color: #212123;
+    margin-bottom: 12px;
+}
+
+.despabtus{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;    
+    text-align: center;
+    color: #4B5563;
+    margin-top: 5vh;
+}

@@ -1,0 +1,105 @@
+.footermaindiv {
+    /* position: sticky;
+    bottom: 0; */
+    background: #fff;
+    padding: 40px 60px;
+}
+
+.footerinside {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ben{
+    font-size:24px; ;
+}
+.footerlogotxt {
+    padding-left: 11px;
+    font-family:'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #4B5563;
+}
+
+.footerlogo {
+    width: 250px;
+    height: auto;
+}
+
+.footeroptions {
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.footeroptions div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footeroptions div span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #4B5563;
+    margin: 1px 0;
+    text-align: center;
+}
+
+.footerbtm {
+    border-top: 0.8px solid rgba(75, 85, 99, 0.3);
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+.logofoot{
+    margin-top: 60px;
+
+}
+
+.AszenLogoFooter{
+    width: 100px;
+    height: auto;
+}
+.sub{
+    vertical-align: bottom;
+}
+@media screen and (max-width: 680px) {
+    .footerinside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footeroptions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+   
+
+
+
+.footerbtm{
+ display: flex;
+ flex-direction: column;
+ align-items: center    ;
+}
+    .footeroptions div {
+        margin: 2vh 0px;
+    }
+
+    .footeroptions div span {
+        margin: 1vh 0;
+
+    }
+}
